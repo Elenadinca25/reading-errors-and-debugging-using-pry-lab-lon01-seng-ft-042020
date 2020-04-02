@@ -18,6 +18,6 @@ def greet_crew(crew)
 end
 
 def engage
-  state_log(star_date)
-  greet_crew(crew)
+ p state_log(star_date)
+ p greet_crew(crew)
 end
