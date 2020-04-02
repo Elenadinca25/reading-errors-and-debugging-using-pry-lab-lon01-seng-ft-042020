@@ -14,7 +14,13 @@ def crew
 end
 
 def greet_crew(crew)
-p  crew.map { |crew_member| "Hello #{crew_member}." }
+ crew.map { |crew_member| "Hello #{crew_member}." }
+end
+
+def greet_crew (crew_member)
+  greeting_array = []
+  crew.each {|crew_member| greeting_array << "Hello #{crew_member}."}
+  return greeting_array
 end
 
 def engage(state_log, star_date)
