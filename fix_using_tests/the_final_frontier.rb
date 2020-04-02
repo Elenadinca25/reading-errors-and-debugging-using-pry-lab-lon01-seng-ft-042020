@@ -12,7 +12,8 @@ end
 end
 
 def greet_crew(crew)
-  crew = ["Geordi", "Data", "Worf", "William", "Beverly", "Deanna"]
+  #crew = ["Geordi", "Data", "Worf", "William", "Beverly", "Deanna"]
+  crew_member =[]
   crew.each { |crew_member| "Hello #{crew_member}."}
 end
 
