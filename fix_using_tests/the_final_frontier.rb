@@ -9,19 +9,18 @@ def state_log(star_date)
  p "Captain's Log, star date #{star_date}."
 end
 
+
 def crew
   ['Geordi', 'Data', 'Worf', 'William', 'Beverly', 'Deanna']
 end
 
-#def greet_crew(crew)
- #crew.map { |crew_member| "Hello #{crew_member}." }
-#end
 
 def greet_crew (crew_member)
   greeting_array = []
   crew.map {|crew_member| greeting_array << "Hello #{crew_member}."}
   return greeting_array
 end
+
 
 def engage
   date = generate_star_date
