@@ -23,7 +23,7 @@ def greet_crew (crew_member)
   return greeting_array
 end
 
-def engage(state_log, star_date)
+def engage
   state_log(date)
   date = generate_star_date
 end
