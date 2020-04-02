@@ -10,7 +10,8 @@ def state_log(star_date)
 end
 
 def greet_crew(crew)
-  crew_member = []
+  crew = []
+  crew_member []
   crew.each { |crew_member| "Hello #{crew_member}."}
 end
 
