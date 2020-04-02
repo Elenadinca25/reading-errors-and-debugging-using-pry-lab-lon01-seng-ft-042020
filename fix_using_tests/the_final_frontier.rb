@@ -14,12 +14,10 @@ def crew
 end
 
 def greet_crew(crew)
-  crew.map { |crew_member| "Hello #{crew_member}." }
+p  crew.map { |crew_member| "Hello #{crew_member}." }
 end
 
 def engage(star_date, crew_member)
   state_log(date)
   date = generate_star_date
- return state_log(crew)
- return greet_crew(crew)
 end
